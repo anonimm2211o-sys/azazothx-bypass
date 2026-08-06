@@ -1,7 +1,8 @@
 {
-  "version": 2,
-  "rewrites": [
-    { "source": "/api/bypass", "destination": "/api/bypass.js" },
-    { "source": "/((?!style\\.css|script\\.js|favicon\\.ico).*)", "destination": "/index.html" }
-  ]
+  "name": "azazothx-bypass",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
 }
