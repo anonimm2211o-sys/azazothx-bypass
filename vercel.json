@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/bypass", "destination": "/api/bypass.js" },
+    { "source": "/((?!style\\.css|script\\.js|favicon\\.ico).*)", "destination": "/index.html" }
+  ]
+}
