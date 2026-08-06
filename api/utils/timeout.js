@@ -1,4 +1,4 @@
-export function withTimeout(promise, ms) {
+function withTimeout(promise, ms) {
   return Promise.race([
     promise,
     new Promise((_, reject) =>
@@ -6,3 +6,5 @@ export function withTimeout(promise, ms) {
     ),
   ]);
 }
+
+module.exports = { withTimeout };
